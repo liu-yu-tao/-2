@@ -1,0 +1,81 @@
+.rotateMusic{
+    animation: rotateMusic 1.5s linear infinite;
+}
+@keyframes rotateMusic {
+
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(360deg)}
+}
+
+/*page1*/
+@keyframes top {
+    0%{transform: scale(0)}
+    80%{transform: scale(1.5)}
+    100%{transform: scale(1)}
+}
+.top{animation: top 1.5s linear}
+
+
+@keyframes left {
+    0%{transform: translateX(-6rem);opacity: 0;}
+    100%{transform: translateX(0rem);opacity: 1}
+}
+.left{animation: left 3s linear forwards;}
+@keyframes tu {
+    0%{transform: rotate(0deg)scale(0)}
+    100%{transform: rotate(720deg)scale(1)}
+}
+.tu{animation: tu 3s linear ;}
+@keyframes bottom {
+    0%{transform: translatey(5rem);opacity: 0;}
+    100%{transform: translatey(0rem);opacity: 1}
+}
+.bottom{animation: bottom 4s linear ;}
+.bottom2{animation: bottom 2s linear forwards;}
+
+@keyframes tu2 {
+    0%{transform: translateY(0rem)}
+    25%{transform: translateY(-2rem)}
+    50%{transform: translateY(0rem)}
+    75%{transform: translateY(-2rem)}
+    100%{transform: translateY(0rem) }
+}
+.tu2{animation: tu2 3s linear forwards;}
+
+
+@keyframes left2 {
+    0%{transform: translateX(-3rem);}
+    100%{transform: translateX(0rem);opacity: 1}
+}
+
+.left2{animation: left2 1.5s linear forwards;}
+.left3{animation: left2 1.5s linear 1s forwards;}
+
+@keyframes right {
+    0%{transform: translateX(3rem);}
+    100%{transform: translateX(0rem);opacity: 1}
+}
+
+.right{animation: right 1.5s linear forwards;}
+.right2{animation: right 1.5s linear 1s forwards;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

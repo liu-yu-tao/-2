@@ -1,0 +1,76 @@
+*{  margin: 0;  padding: 0; text-decoration: none;list-style: none }
+html,body,{width: 100%;height: 100%;overflow: hidden}
+.page{width: 100%;height: 100%;overflow: hidden;position: absolute;transition: transform 0.5s linear;}
+.pageUp{transform: translateY(-100%);}
+.pageDown{transform: translateY(100%);}
+.hide{display: none;}
+.swiper-container{width: 100%;height: 100%;}
+.swiper-wrapper{width: 100%;height: 100%}
+.music{
+    width: 0.8rem;
+    height: 0.8rem;
+    background: url("../image/music.png")no-repeat center;
+    background-size: 0.6rem 0.6rem;
+    position: fixed;
+    right: 0.2rem;
+    top: 0.2rem;
+    z-index: 999;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1rem;
+
+}
+.page1{background: url("../image/bg1.png")no-repeat;background-size: 100% 100%}
+.page1 img{margin: 3.5rem 0 3.5rem 1.8rem;}
+
+
+.page2{background: url("../image/bgg1.jpg")no-repeat;background-size: 100% 100%}
+.page2 .pic{width: 2.5rem;height: 2.5rem;border-radius: 50%;margin: 1rem 0 0.5rem 1.8rem}
+.page2 p{font-size: 0.35rem;text-align: center;opacity: 0;}
+.pic2{width: 100%;}
+
+
+
+.page3 .box{background: url("../image/bgg5.jpg")no-repeat;background-size: 100% 100%;padding-top: 1.2rem;position: relative;width: 100%;height: 5.1rem}
+.pic3{width: 60%;position: absolute;left: 1.5rem;top: 2rem}
+.box2{background: url("../image/wojiushiwo.jpg")no-repeat;background-size: 100% 100%}
+.box2 div{text-align: center;opacity: 0;}
+.box2 div img{width: 1rem;}
+.box2 div span{font-size: 0.6rem;width: 4rem;display: inline-block;text-align: left}
+
+
+.page4{background: url("../image/bgg1.jpg")no-repeat;background-size: 100%}
+.page4 h2{text-align: center;margin-top: 1rem}
+.box3{position: relative;width: 100%;height: 8rem;background: grey;margin-top: 2.85rem}
+.box3 img{width: 1.5rem;height: 2.5rem;position: absolute;opacity: 0}
+.box3 img:nth-of-type(1){left: 0.5rem;top: 0.5rem}
+.box3 img:nth-of-type(2){left: 2.5rem;top: 2rem}
+.box3 img:nth-of-type(3){left: 4.5rem;top: 3.5rem}
+.box3 img:nth-of-type(4){left: 0.5rem;top: 3.5rem}
+.box3 img:nth-of-type(5){left: 4.5rem;top: 0.5rem}
+
+
+
+.page5{background: url("../image/bgg1.jpg")no-repeat;background-size: 100% 100%}
+.page5 h1{text-align: center;margin-top: 1rem}
+.box4{width: 100%;height: 100%;margin: 1rem 0 4rem 0}
+.page5 .box4 span{margin: 0rem 0 0 1rem;display: block;height: 5rem;color: red;
+    -webkit-writing-mode: tb-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: tb-rl;}
+
+
+.page6{background: url("../image/bgg1.jpg")no-repeat;background-size: 100% 100%}
+.page6 img{width: 60%;;margin: 4.5rem 0 4.5rem 1.5rem}
+
+
+
+
+
+
+
+
+
+
+
